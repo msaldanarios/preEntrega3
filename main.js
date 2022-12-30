@@ -11,11 +11,10 @@ const cuotasFinales = document.getElementById('finalFees');
 const intereses = document.getElementById('interests');
 const totalADevolver = document.getElementById('totalAmount');
 
-const tasa = 0.2; // 1%
+const tasa = 0.2;
 
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
-
 
     obtenerCuotaPrestamo();
 });
