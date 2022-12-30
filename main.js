@@ -16,17 +16,6 @@ const tasa = 0.2; // 1%
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // Calcular la cuota del préstamo
-    // const cuotaPrestamo = tasa * monto.value / (1 - (1+tasa)**-cuotas.value);
-
-    // Calculamos el total a devolver del préstamo
-    // const total = cuotaPrestamo.toFixed(2) * cuotas.value;
-
-    // Pintamos los resultamos del préstamo en el navegador
-    // montoFinal.innerText = monto.value;
-    // cuotasFinales.innerText = cuotas.value;
-    // intereses.innerText = total - monto.value;
-    // totalADevolver.innerText = total;
 
     obtenerCuotaPrestamo();
 });
