@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 100px;
+    color: white;
+    background-color: blue;
+    font-family: monospace;
+}
+
+.sub_title {
+    font-size: 50px;
+    color: blue;
+    background-color: white;
+    font-family: monospace;
+}
+
+footer {
+    font-family: "Silkscreen", cursive;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center; }
+    @media (max-width: 300px) {
+      footer div h2, footer div .h2 {
+        font-size: 20px; } }
+    footer div img {
+      padding: 10px;
+      width: 80px;
+      height: 80px; }
